@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChannelPlayActivity">
+
+    <Button
+        android:id="@+id/btn_music_channel_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC通道播放" />
+
+    <Button
+        android:id="@+id/btn_alarm_channel_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm通道播放" />
+
+</LinearLayout>
