@@ -45,7 +45,7 @@ object Logger {
     }
 
     private fun log(@LogLevel priority: Int, tag: String, msg: String, tr: Throwable? = null) {
-        val finalTag = config?.prefix + tag
+        val finalTag = config?.prefix?.let { it + tag } ?: tag
         logger.log(priority, finalTag, msg, tr)
 
         config?.let {

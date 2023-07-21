@@ -25,6 +25,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyAudio"
 include ':lib_common'
+include ':lib_audiofocus_monitor'
 include ':demo'
 
 

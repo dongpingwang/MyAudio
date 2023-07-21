@@ -1,6 +1,6 @@
 package com.wdp.recorder.demo
 
-import android.app.Application
+import com.wdp.common.BaseApplication
 
 /**
  * 作者：王东平
@@ -8,6 +8,6 @@ import android.app.Application
  * 说明：
  * 版本：1.0.0
  */
-class MyApplication : Application() {
+class MyApplication : BaseApplication() {
 
 }
