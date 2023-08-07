@@ -11,16 +11,21 @@
         <activity
             android:name=".ChannelPlayActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".AudioFocusActivity"
             android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".VolumeShaperActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

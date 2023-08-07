@@ -1,6 +1,7 @@
 package com.wdp.recorder.demo
 
 import android.media.AudioManager
+import android.media.AudioRecord
 import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -32,9 +33,11 @@ class ChannelPlayActivity : AppCompatActivity() {
     }
 
     private fun playMusicChannel() {
+
+        AudioRecord()
         Logger.d(TAG, "playMusicChannel")
         MediaPlayer().apply {
-            val afd = assets.openFd("liuhuan-fenhuanyufei.mp3")
+            val afd = assets.openFd("test.mp3")
             setAudioStreamType(AudioManager.STREAM_MUSIC)
             setDataSource(afd)
             prepareAsync()
